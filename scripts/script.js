@@ -8,7 +8,7 @@ const passwordConfirmInput = document.querySelector("#password-confirm-input");
 // create reference for buttons.
 const submitBtn = document.querySelector("#submit-btn");
 const resetBtn = document.querySelector("#reset-btn");
-
+ 
 // simple email validation
 function validateEmail(email) {
   var atPos = email.indexOf("@");
